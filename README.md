@@ -36,7 +36,7 @@
 - Yazılımı sanal makineler üzerinde kuracak infrastructure as a code yapısı düşünülebilir (Docker?).
 
 ## İçerik
-- ITIL ve IT4IT gibi çözümler endüstriyel sorunlara da çözümleri içeriyor olabilir. ITIL pratiklerinin büyük bir kısmını gerçekleyen [projeler](https://github.com/glpi-project/glpi) denenebilir. İlgili metinlerle uygulamayı kıyaslayıp spesifik problemlere önerilen çözümlerin uygulanma biçimlerini görmek faydalı olabilir.
+- ITIL ve IT4IT gibi çözümler endüstriyel sorunlara da çözümleri içeriyor olabilir. ITIL pratiklerinin büyük bir kısmını gerçekleyen projeler ([1](https://github.com/glpi-project/glpi), [2](https://sourceforge.net/projects/itop/)) denenebilir. İlgili metinlerle uygulamayı kıyaslayıp spesifik problemlere önerilen çözümlerin uygulanma biçimlerini görmek faydalı olabilir.
 - ITIL, tüm IT servislerini kapsıyor. Uygulamalar bazen sadece help desk ticketing alanını kapsayabiliyor. Ticari örnekleri incelemek gerekebilir: ServiceNow, BMC Software vs.
 
 ## İş Modeli:
