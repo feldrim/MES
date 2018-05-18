@@ -33,3 +33,9 @@
 - Rx kullanıldığı için veri yapılarında [DynamicData](https://github.com/RolandPheasant/DynamicData) kütüphanesi kullanılması gerekebilir.
 - SOA kısmında [Quartz.Net](https://github.com/quartznet/quartznet), [Hangfire](https://github.com/HangfireIO/Hangfire) ya da [FluentScheduler](https://github.com/fluentscheduler/FluentScheduler/) gibi bir görev zamanlayıcı, [Polly](https://github.com/App-vNext/Polly) veritabanı akış kontrolü,  [Config.Net](https://github.com/aloneguid/config) gibi bir konfigürasyon kontrolü, [Wexflow](https://github.com/aelassas/Wexflow/) gibi bir workflow , vs kullanılabilir.
 - Yazılımı sanal makineler üzerinde kuracak infrastructure as a code yapısı düşünülebilir (Docker?).
+
+## İş Modeli:
+- SaaS + On-premise: Jenerik ihtiyaçlar SaaS, spesifik, metale yakın olanlar on-premise vs.
+- [Jobs to be Done](https://jtbd.info/): Kullanıcı gerçekte ne istiyor. Ne ifade ettiği değil, niyeti önemli. Çözmeye çalıştığı sorun kendi ifade ettiği gereksinimden daha önemli.
+- Bu konuda sektörden birkaç kişiyle uzun uzun mülakat gerekebilir.
+- Rakiplerle benchmark nasıl yapılabilir?
