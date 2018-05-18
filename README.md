@@ -22,6 +22,7 @@
 
 ## Veri Analizi:
 - Akan tüm verileri alıp [Timescale DB](https://www.timescale.com/)'ye aktaran bir servis yazmak analiz için kullanılacak veriyi sağlayabilir. Event Bus'tan da akış sağlanabilir.
+- Bir noktada Hadoop'a ihtiyaç duyulabilir. Ama nerede?
 
 ## Endüstri 4.0 Framework'leri:
 - [RAMI 4.0](https://www.plattform-i40.de/I40/Redaktion/EN/Downloads/Publikation/rami40-an-introduction.html) SOA altyapılı bir sistem öneriyor. Daha açık ve uygulamaya yönelik.
