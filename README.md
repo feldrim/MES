@@ -37,6 +37,7 @@
 
 ## İçerik
 - ITIL ve IT4IT gibi çözümler endüstriyel sorunlara da çözümleri içeriyor olabilir. ITIL pratiklerinin büyük bir kısmını gerçekleyen [projeler](https://github.com/glpi-project/glpi) denenebilir. İlgili metinlerle uygulamayı kıyaslayıp spesifik problemlere önerilen çözümlerin uygulanma biçimlerini görmek faydalı olabilir.
+- ITIL, tüm IT servislerini kapsıyor. Uygulamalar bazen sadece help desk ticketing alanını kapsayabiliyor. Ticari örnekleri incelemek gerekebilir: ServiceNow, BMC Software vs.
 
 ## İş Modeli:
 - SaaS + On-premise: Jenerik ihtiyaçlar SaaS, spesifik, metale yakın olanlar on-premise vs.
