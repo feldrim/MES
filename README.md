@@ -1,4 +1,4 @@
-# MES Fikirleri
+# MES / ERP hakkında
 
 ## Protokoller ve standartlar:
 - [B2MML.Net](https://github.com/jpdillingham/B2MML.NET) nerelerde kullanılmalı? MESA repo'sunda [tartışma](https://github.com/MESAInternational/B2MML-BatchML/issues/13) açtım, bekliyorum. Bence uygulamanın ilgili class'ları tarafından kalıtılabilir.
