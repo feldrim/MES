@@ -14,7 +14,7 @@
 ### Genel:
 - [Netmap](https://github.com/luigirizzo/netmap), FreeBSD için yazılmış, windows portu olan bir servis. Kernel için servis şeklinde yazılmış ancak sonradan port edildiği için doğrudan kullanımı zor. Ağ üzerinde hızlı ve büyük verilerin alışverişi için ([örnek](https://www.bbc.co.uk/rd/blog/2018-04-high-speed-networking-open-source-kernel-bypass)) işletim sistemini bypass edip doğrudan ethernet kartı üzerinden işlem yapmayı sağlıyor. C# için interop ile bir wrapper yapılıp dahil edilebilir.
 - Message queue veya bus kullanılabilir yerlerde [RabbitMQ](https://www.rabbitmq.com/) ([MassTransit](http://masstransit-project.com/) ile) ve/veya [Kafka](https://kafka.apache.org/) ([Logstash](https://www.elastic.co/products/logstash) ile) kullanılabilir mi?
-- OpenStack ya da ServiceStack gibi bir altyapı sistemi temize çekebilir.
+- OpenStack ya da ServiceFabric gibi bir altyapı sistemi temize çekebilir.
 - Mimari tasarım nasıl olmalı? [Örnek 1](https://github.com/donnemartin/system-design-primer)
 - UI için kullanılan _feature toggling_ sistemin geneli için düşünülebilir. Her müşteri farklı versiyonun farklı modüllerden oluşan bir paketini kullanacaktır.
 
