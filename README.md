@@ -11,6 +11,7 @@
 - Diğer yazılımlarla entegrasyonda, mesajlaşma formatı EDI'dan bahsetmişti. [Edifabric](https://www.edifabric.com/) ile pek çok standarda göre yazmak mümkün. AS4 gibi bir web servis ayağı da var. Nerelerde kullanılıyor? Gerekirse benzer bir modül ile EDI dokümanlarını .Net objesine ya da JSON'a çevirme işi yapılabilir. 
 - Yukarıda saydığım standartlar, diğer uygulamalarla iletişim sağlamak üzere çeşitli adapter'lar ile gerçeklenmeli. Uygulama kendi içinde test edilip en uygun bulunan yollarla iletişimini sağlamalı.
 - [KPI-ML](https://github.com/MESAInternational/KPI-ML) diye bir başka MESA standardı var. Otomasyon sistemleri için KPI'ları içeren ISO 22400 standardını gerçekleyen bir XSD şeması. Bunu uygulama için bir benchmark olarak kullanmak mümkün. Yani planlanan ve gerçekleşen arasında bir köprü olarak KPI'ları kontrol mekanizmasının merkezine almak makul olabilir. Bunun da [kütüphanesi](https://github.com/jpdillingham/KPI-ML.NET) var.
+- AB destekli [BEinCPPS](http://www.beincpps.eu) Open Platform kullanılabilir. 
 
 ### Genel:
 - [Netmap](https://github.com/luigirizzo/netmap), FreeBSD için yazılmış, windows portu olan bir servis. Kernel için servis şeklinde yazılmış ancak sonradan port edildiği için doğrudan kullanımı zor. Ağ üzerinde hızlı ve büyük verilerin alışverişi için ([örnek](https://www.bbc.co.uk/rd/blog/2018-04-high-speed-networking-open-source-kernel-bypass)) işletim sistemini bypass edip doğrudan ethernet kartı üzerinden işlem yapmayı sağlıyor. C# için interop ile bir wrapper yapılıp dahil edilebilir.
